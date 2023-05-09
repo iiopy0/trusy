@@ -1,0 +1,93 @@
+.offer-row.top {
+  background: url('img/main_offer_bg.png') no-repeat;
+  background-size:cover;
+  padding:50px 30px;
+  /*border: #10dd7b 1px solid;*/
+}
+
+.offer-row.top .offer-banner{
+  height:20px;
+  line-height: 20px;
+  font-size:0.8rem;
+}
+
+.offer-row.top .offer-banners.rating {
+  bottom:unset;
+  left:unset;
+  top:5px;
+  right:5px;
+}
+
+.offer-row.top .offer-logo {
+  flex: 0 0 30%;
+  border-right: none;
+}
+
+.offer-row.top .offer-logo img {
+  max-height: 100px;
+}
+
+.offer-row.top .offer-top-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:100%;
+    block-size: 250px;
+}
+
+.offer-row.top .offer-container{
+  height: unset;
+}
+
+.offer-row.top .offer-details{
+  flex-direction: row;
+  height: auto;
+  width:60%;
+  padding: 10px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  box-shadow: 0 0 6px rgba(200,200,200, 0.6);
+}
+
+.offer-row.top .offer-detail-container{
+  flex: 0 0 30%;
+  padding: 10px;
+}
+
+.offer-row.top .offer-button-wrap{
+  width: 60%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 864px) {
+  .offer-row.top {
+    padding:50px 5px;
+  }
+
+  .offer-row.top .offer-logo{
+    margin: 20px 0;
+    margin-bottom: 40px;
+  }
+
+  .offer-row.top .offer-details{
+    width:98%;
+  }
+
+  .offer-row.top .offer-button-wrap{
+    margin-top: 5px;
+    width:98%;
+  }
+
+  .offer-row.top .offer-detail-container{
+    padding: 5px 0px;
+  }
+
+  .offer-row.top .offer-button-wrap .offer-button-link{
+    margin-bottom:10px;
+  }
+  .offer-row.top .offer-button-wrap div{
+    margin-bottom:10px;
+  }
+}
